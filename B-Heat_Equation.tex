@@ -1,0 +1,153 @@
+The Black–Scholes partial differential equation can be transformed into the classical heat equation.
+\begin{proof}
+    Consider the Black Scholes equation (\ref{eq:Black–Scholes}); let's make the following change of variables:
+    \begin{align*}
+        S &= e^{x} \\
+        t &= T - \frac{\tau}{\sigma^2}
+    \end{align*}
+    
+    \begin{equation*}
+        V(S,t) = v(x,\tau) = v\!\left(\ln(S), \frac{\sigma^2}{2}(T - t)\right)
+    \end{equation*}
+
+    Calculating the respective derivatives present in the original equation
+    
+    \begin{equation*}
+        \pdv{V}{t} = \pdv{v}{\tau} \pdv{\tau}{t} 
+        = -\frac{\sigma^2}{2} \pdv{v}{\tau}
+    \end{equation*}
+    
+    \begin{equation*}
+        \pdv{V}{S} = \pdv{v}{x} \pdv{x}{S} 
+        =  \frac{1}{S} \pdv{v}{x}
+    \end{equation*}
+    
+    \begin{align*}
+        \pdv[2]{V}{S} &= \pdv{s} \left( \pdv{v}{S} \right) = \pdv{S} \left( \frac{1}{S} \pdv{v}{x} \right) \\
+        &= -\frac{1}{S^2}\pdv{v}{x} + \frac{1}{S} \pdv{}{x} \pdv{x}{S} \pdv{v}{x} \\
+        &= -\frac{1}{S^2}\pdv{v}{x} + \frac{1}{S^2} \pdv{}{x} \pdv{v}{x} \\
+        &= -\frac{1}{S^2}\pdv{v}{x} + \frac{1}{S^2}\pdv[2]{v}{x}
+    \end{align*}
+    
+    Reinserting the transformed derivatives into the Black–Scholes equation and collecting similar terms.
+    
+    \begin{equation*}
+        \pdv{v}{\tau} = \pdv[2]{v}{x} + \left(\frac{2r}{\sigma^2} - 1 \right)\pdv{v}{x} - \frac{2r}{\sigma^2} v
+    \end{equation*}
+
+    After consolidating the parameters, we set $\kappa = \tfrac{2r}{\sigma^{2}}$ and replace $\tau$ with $t$. We also adjust the domain accordingly.
+    
+    \begin{equation*}
+        \pdv{v}{t} 
+        = \pdv[2]{v}{x} 
+        + (\kappa - 1)\pdv{v}{x} 
+        - \kappa v
+    \end{equation*}
+    
+    The new equation is similar to the heat equation, except for two terms on the right-hand side, which we eliminate through another change of variables.
+    
+    \begin{equation*}
+        v(x,t) = e^{\alpha x + \beta t}(x,t) = \psi u
+    \end{equation*}
+    
+    Let us recompute the derivatives of the given expressions:
+    
+    \begin{equation*}
+        \pdv{v}{t} = \beta \psi u + \psi \pdv{u}{t}
+    \end{equation*}
+
+    \begin{equation*}
+        \pdv{v}{x} = \alpha \psi u + \psi \pdv{u}{x}
+    \end{equation*}
+    
+    \begin{align*}
+        \pdv[2]{v}{x} &= \pdv{}{x} \left( \alpha \psi u + \psi \pdv{u}{x} \right) \\
+         &= \alpha^2 \psi u + 2 \alpha \psi \pdv{u}{x} + \psi \pdv[2]{u}{x}
+    \end{align*}
+
+    By inserting the derivatives into the transformed PDE, we rearrange the expression, collect like terms, and cancel the factor $e^{\alpha x + \beta t}$, which, being exponential, is always positive.
+
+    \begin{equation*}
+        \pdv{u}{t} = \pdv[2]{u}{x} + \left[ 2\alpha + (k - 1) \right] \pdv{u}{x} + \left[ \alpha^2 + (k - 1)\alpha - k - \beta \right] u
+    \end{equation*}
+
+    As $\alpha$ and $\beta$ are arbitrary, we select them to remove both the $\pdv{u}{x}$ and $u$ contributions.
+
+    \begin{align*}
+        \alpha &= \frac{k - 1}{2} \\
+        \beta  &= \alpha^2 + (k - 1)\alpha - k = -\frac{(k + 1)^2}{4}
+    \end{align*}
+
+    At this stage, the equation reduces to the one-dimensional heat equation.
+
+    \begin{equation*}
+        \pdv{u}{t} = \pdv[2]{u}{x}
+    \end{equation*}
+
+
+    \subsection{Derivation of the Solution}\label{app:B_solution_Black-Scholes}
+    At this point, the standard representation formula for solutions of the heat equation can be used in the context of the Black--Scholes equation.
+    \begin{equation*}
+        u(x,\tau) = \frac{1}{2\sqrt{\pi \tau}} \int_{-\infty}^{+\infty} u_0(s) \exp\!\left(-\frac{(x - s)^2}{4\tau}\right) \, \dd{s}
+    \end{equation*}
+    We perform the following change of variable
+    \begin{equation*}
+        z = \frac{s - x}{\sqrt{2\tau}} \qquad \Longrightarrow \qquad \dd{z} = - \frac{1}{\sqrt{2\tau}}\,\dd{x}
+    \end{equation*}
+    \begin{equation*}
+        u(x,\tau) = \frac{1}{2\sqrt{\pi}} \int_{-\infty}^{+\infty} u_0\left(z\sqrt{2\tau+x}\right)\, \exp({-z^2/2})\,\dd{z}
+    \end{equation*}
+
+    \begin{equation*}
+        u_0 = e^{-\tfrac{k-1}{2}}\,(e^x - 1) = e^{\tfrac{k+1}{2}\,\left(x + z\sqrt{2\tau}\right)} - e^{\tfrac{k-1}{2}\,\left(x + z\sqrt{2\tau}\right)}
+    \end{equation*}
+    
+    We consider two separate integrals:
+    \begin{align*}
+        I_1 &= \frac{1}{2\sqrt{\pi}} \int_{-\tfrac{x}{2\tau}}^{+\infty} e^{\tfrac{k+1}{2}\,\left(x + z\sqrt{2\tau}\right)} \, e^{-z^2/2}\dd{z} \\
+        I_2 &= \frac{1}{2\sqrt{\pi}} \int_{-\tfrac{x}{2\tau}}^{+\infty} e^{\tfrac{k-1}{2}\,\left(x + z\sqrt{2\tau}\right)} \, e^{-z^2/2}\dd{z}
+    \end{align*}
+    
+    After an algebraic manipulation of the exponent, we obtain
+    \begin{equation*}
+        \frac{e^{\tfrac{(k+1)^2 \tau}{4}} + e^{\tfrac{(k+1)x}{2}}}{\sqrt{2\pi}} \int_{-\tfrac{x}{2\tau}}^{+\infty} \exp(-\tfrac{1}{2}\left(z - (k+1)\sqrt{\tau / 2}\right)^2) \dd{z}
+    \end{equation*}
+
+    Following another change of variable
+    \begin{equation*}
+        y = z - \sqrt{\tau / 2}\,(k+1) 
+        \qquad \Longrightarrow \qquad 
+        \dd{y} = \dd{z}
+    \end{equation*}
+
+    \begin{equation*}
+       \frac{e^{\tfrac{(k+1)^2 \tau}{4}} + e^{\tfrac{(k+1)x}{2}}}{\sqrt{2\pi}} \int_{-x/(2\tau) - \sqrt{\tau / 2} (k+1)}^{+\infty} e^{-y^2/2}\,\dd{y}
+    \end{equation*}
+    
+    The integral represents the cumulative distribution function $\phi$ of a normal variable $d$.
+    \begin{equation*}
+        \phi(d) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{d} e^{-y^2/2} \dd{y}
+    \end{equation*}
+    Thus
+    \begin{equation*}
+        I_1 = \left[e^{\tfrac{(k+1)^2 \tau}{4}} + e^{\tfrac{(k+1)x}{2}}\right] \, \phi(d_1),
+        \qquad 
+        d_1 = \frac{x}{2\tau} + \sqrt{\tau / 2}\,(k+1)
+    \end{equation*}
+    
+    To obtain $I_2$ one proceeds as before but replaces $(k+1)$ with $(k-1)$.
+    \begin{equation*}
+        u(x,\tau) = \left[ e^{\tfrac{(k+1)^2 \tau}{4}} + e^{\tfrac{(k+1)x}{2}}\right] \, \phi(d_1) - \left[e^{\tfrac{(k-1)^2 \tau}{4}} + e^{\tfrac{(k-1)x}{2}}\right] \, \phi(d_2)
+    \end{equation*}
+    
+    We must undo the changes of variables, obtaining
+    \begin{equation*}
+        V(S,t) = S\,\phi(d_1) - e^{-r(T-t)}\,\phi(d_2)
+    \end{equation*}
+    where
+    \begin{align*}
+        d_1 &= \frac{\ln(S) + \left(r + \sigma^2 / 2 \right)(T - t)}{\sigma \sqrt{T - t}} \\
+        d_2 &= \frac{\ln(S) + \left(r - \sigma^2 / 2\right)(T - t)}{\sigma \sqrt{T - t}}
+    \end{align*}
+
+\end{proof}

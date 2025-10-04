@@ -1,0 +1,171 @@
+\subsection{Random walks and arithmetic brownian motion}
+Imagine starting at the origin of a Cartesian plane and, every second, having the same probability of moving east, west, north, south (or even in a oblique direction). After a certain number of steps, the position you end up in is \textbf{completely unpredictable}. A \textbf{random} \textbf{walk} is a path constructed in this way, with a sequence of steps determined by probability. \\
+\\
+Key caratheristics of a random walk:
+\begin{itemize}
+    \item \textbf{Unpredictable and independent increments}: Previous steps have no influence whatsoever on the next one or on future steps.
+    \item \textbf{Variance that grows over time}: The number of possible final positions after $n$ steps increases as $n$ increases. (With a bit of reasoning, one can see that it grows proportionally to $\sqrt{n}$).
+    \item \textbf{In the case of no drift}: on average, you end up at the starting point (each direction is equally likely).
+\end{itemize}
+We say that a random walk is driven (has a drift) when the directions have different probabilities.
+%\begin{figure} [H]
+%        \centering
+%        \includegraphics[width=0.5\linewidth]{img/random_walk_1.png}
+%        \caption{Example of a 2D random walk}
+%    \end{figure}
+%\begin{figure} [H]
+%    \centering
+%    \includegraphics[width=0.75\linewidth]{img/random_walk_2.png}
+%    \caption{Could one see the market as an example of a 1D random walk?}
+%\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/random_walk_1.png}
+        \caption{Example of a 2D random walk.}
+        \label{fig:sub1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/random_walk_2.png}
+        \caption{Is the market a 1D random walk?}
+        \label{fig:sub2}
+    \end{subfigure}
+    \caption{Exaples of random walks.}
+    \label{fig:due_immagini}
+\end{figure}
+
+\textbf{Arithmetic Brownian motion}: is the random motion of particles suspended in a liquid or gas medium. It consists of random fluctuations in a particle's position inside a fluid. In a fluid at thermal equilibrium there exists no preferential direction of flow (i.e. with no drift). \\
+Basically the arithmetic brownian motion is a continuous-time process with Gaussian increments, essentially a continuous analogue of the random walk.\\
+
+If you take a random walk and rescale it properly (step size $\Delta t \to 0)$ and consider jumps proportional to $\sqrt{\Delta t}$ then in the limit you obtain a Brownian motion.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/brownian_motion.png}
+    \caption{Illustration of the brownian motion of a sphere inside a fluid.}
+\end{figure}
+\subsection{Bachelier model}
+In 1900, \textbf{Bachelier} believed a stock price followed a \textbf{random walk with no drift}. Since a combination of random walks follow a normal distribution, for Bachelier the expected future of a stock is described by a normal distribution with its variance proportional to time. The formal proof, which is omitted here for brevity, can be found in the Appendix \ref{app:A}.
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/Bachelier.png}
+    \caption{The stock price follows a normal distribution moving with time to the right.}
+\end{figure}
+An easy way to come to believe that a sequence of random walks creates a normal distribution is using a \textbf{Galton board}. In a Galton board the balls follow a random walk (in each intersection they have a 50/50 change of going to the right/left), the figure that is created on the bottom of the board is crearly a normal distribution if you keep adding balls.
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/Galton_Board_5.jpeg}
+    \caption{An example of Galton board.}
+\end{figure}
+Bachelier discovered that the stock prices follow a gaussian with variance proportional to time, and this was demonstrated by Einstein in 1905 to be the probability distribution of particle dispacements in the Brownian motion and a particular solution of the heat equation.\\
+In other words, Bachelier basically discovered that the stock prices follow the same equation that describes how heat radiates from region of high temperature to region of low temperature as had been described by Joseph Fourier in 1822:
+\begin{equation}\label{eq:heat}
+    \pdv{u}{t} = \alpha \pdv[2]{u}{x}
+\end{equation} 
+
+What we've learned to far:
+
+\begin{table}[H]
+\centering
+\rowcolors{2}{gray!5}{white}
+\begin{tabular}{@{}p{4cm}p{8.5cm}@{}}
+\toprule
+\rowcolor{gray!15}
+\textbf{Model} & \textbf{Description} \\ \midrule
+\textbf{Bachelier (1900)} &
+Prices follow an \emph{arithmetic Brownian motion} and satisfy Fourier's heat equation. \\
+\bottomrule
+\end{tabular}
+\caption{The Bachelier model (1900): the first stochastic model for asset prices.}
+\end{table}
+
+
+\subsection{The efficient Market Hypothesis (EMH)}
+The \textbf{efficient-market-hypothesis} states that "\textit{asset prices reflect all available information}", basicaly you can't buy an asset and sell it immediately for profit.\\
+This means that it is impossible for investors to consistently outperform the market through expert stock selection as any new information is quickly incorporated into stock prices (the more people trying to predict the stock market and trading the less predictable those prices are).\\
+
+ One can demonstrate that the EMH implies that the logarithm of stock prices follows a driven (with drift) random walk (omitted for brevity).
+
+What we've learned so far:
+
+\begin{table}[H]
+\centering
+\rowcolors{2}{gray!5}{white}
+\begin{tabular}{@{}p{4cm}p{8.5cm}@{}}
+\toprule
+\rowcolor{gray!15}
+\textbf{Model} & \textbf{Description} \\ \midrule
+\textbf{Bachelier (1900)} &
+Prices follow an \emph{arithmetic Brownian motion} and satisfy Fourier's heat equation. \\[3pt]
+\textbf{Efficient Market Hypothesis (1960s)} &
+Log-prices follow a driven random walk. \\ 
+\bottomrule
+\end{tabular}
+\caption{From the Bachelier model to the Efficient Market Hypothesis.}
+\end{table}
+
+\subsection{Geometric Brownian Motion}
+
+%\textbf{\large{Geometric Brownian Motion}}
+\textbf{A geometric Brownian motion (GBM)} is a continuos-time stochastic process in which the logarithm of the random variable follows a Brownian motion with a drift (i.e. with a change of the average value of the random variable). \\
+Using stochastic processes we can define stochastic differential equations (SDE), in which some terms and the solution are stochastic processes.
+For example the SDE for the geometric brownian motion ($S_{t}$) is the following:
+\begin{equation*}
+    \dd S_{t} = \mu S_{t} \dd t + \sigma S_{t} \dd W_{t}
+\end{equation*}
+where $W_{t}$ is a Brownian motion, $\mu$ is the percentage drift and $\sigma$ is the percentage volatility.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/GBM.png}
+\end{figure}
+
+\subsection{Black--Scholes--Merton Model (BSM)} 
+If we take these assumptions on the market:
+\begin{itemize}
+    \item Ability to buy and sell any amount of the stock (without fees or costs);
+    \item Ability to borrow and lend any amount at the riskless rate (without fees or costs);
+    \end{itemize}
+    and if it follows the efficient market hypothesis:
+    \begin{itemize}
+    \item There is a \textbf{risk-free interest rate} and it is \textbf{constant}. There is \textbf{no arbitrage} opportunity (there is no way you can make riskless profit excessing risk-free rate);
+    \item The stock does not pay a dividend.
+    \end{itemize}
+Then not only the log return of the stock price follows a driven random walk (EMH), but the stock price follows a Geometric brownian motion:
+\begin{equation*}
+    \dd S = S \dd t + \sigma S \dd z
+\end{equation*}
+where $dS$ is the infinitesimale change in stock price, $S \dd t$ is the drift, and $\sigma S \dd z$ is randomness term, basically a brownian motion with drift.\\
+
+After some number of steps, one should get the Black--Scholes/Merton equation:
+\begin{equation} \label{eq:Black–Scholes}
+    \pdv{V}{t} + rS \pdv{V}{S} + \frac{1}{2} \sigma^2 S^2 \pdv[2]{V}{S} - rV = 0
+\end{equation}
+In this case, since the log of the price follows an arithmetic brownian motion, it also solves the Fourier's heat equation.
+We refer to Appendix~\ref{app:B} for the derivation transforming the Black--Scholes equation into the heat equation, and to Appendix~\ref{app:B_solution_Black-Scholes} for the detailed calculations leading to its solution.
+
+What we've learned so far:
+
+\begin{table}[H]
+\centering
+\rowcolors{2}{gray!5}{white}
+\begin{tabular}{@{}p{3.8cm}p{8.2cm}@{}}
+\toprule
+\rowcolor{gray!15}
+\textbf{Model} & \textbf{Description} \\ \midrule
+\textbf{Bachelier (1900)} &
+Prices follow an \emph{arithmetic Brownian motion} and satisfy Fourier's heat equation. \\[2pt]
+\textbf{Efficient Market Hypothesis (1960s)} &
+Log-prices follow a driven random walk. \\[2pt]
+\textbf{Black–Scholes / Merton (1970s)} &
+Prices follow a \emph{geometric Brownian motion}, hence log-prices satisfy Fourier's heat equation. \\ 
+\bottomrule
+\end{tabular}
+\caption{From Bachelier to Black–Scholes: evolution of price modeling.}
+\end{table}
+

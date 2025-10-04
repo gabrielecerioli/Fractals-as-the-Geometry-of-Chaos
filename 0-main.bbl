@@ -1,0 +1,247 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{procaccia}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3cd1291c7a91fcb1a8ac54e2e8699f32}{%
+           family={Grassberger},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bcb302aa5fdd4c5eddb0b92bc0820286}{%
+           family={Procaccia},
+           familyi={P\bibinitperiod},
+           given={Itamar},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{fullhash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{fullhashraw}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{bibnamehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authorbibnamehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authornamehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authorfullhash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authorfullhashraw}{4bbf191202bacad563c63c31ef4c70be}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{title}{Measuring the Strangeness of Strange Attractors}
+      \field{volume}{9}
+      \field{year}{1983}
+      \true{nocite}
+      \field{pages}{189\bibrangedash 208}
+      \range{pages}{20}
+    \endentry
+    \entry{joyner2016black}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=22f76a6b9ca9ea8aa217c6995880a998}{%
+           family={Joyner},
+           familyi={J\bibinitperiod},
+           given={Charles\bibnamedelima D},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{22f76a6b9ca9ea8aa217c6995880a998}
+      \strng{fullhash}{22f76a6b9ca9ea8aa217c6995880a998}
+      \strng{fullhashraw}{22f76a6b9ca9ea8aa217c6995880a998}
+      \strng{bibnamehash}{22f76a6b9ca9ea8aa217c6995880a998}
+      \strng{authorbibnamehash}{22f76a6b9ca9ea8aa217c6995880a998}
+      \strng{authornamehash}{22f76a6b9ca9ea8aa217c6995880a998}
+      \strng{authorfullhash}{22f76a6b9ca9ea8aa217c6995880a998}
+      \strng{authorfullhashraw}{22f76a6b9ca9ea8aa217c6995880a998}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Black-scholes equation and heat equation}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{lecture}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=83ced72c407b4739f234545c111ae19f}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{fullhash}{83ced72c407b4739f234545c111ae19f}
+      \strng{fullhashraw}{83ced72c407b4739f234545c111ae19f}
+      \strng{bibnamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authorbibnamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authornamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authorfullhash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authorfullhashraw}{83ced72c407b4739f234545c111ae19f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Video lecture, Massachusetts Institute of Technology}
+      \field{title}{Fractals in Science, Engineering and Finance (Roughness and Beauty)}
+      \field{year}{2001}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=ock9Gk_aqw4
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=ock9Gk_aqw4
+      \endverb
+    \endentry
+    \entry{book_mandelbrot}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=83ced72c407b4739f234545c111ae19f}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7ba7bd472b5d5bf2ca296005e50bd8db}{%
+           family={Hudson},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Basic books}%
+      }
+      \strng{namehash}{b12fa165c74df96867bbe2f60656a5f6}
+      \strng{fullhash}{b12fa165c74df96867bbe2f60656a5f6}
+      \strng{fullhashraw}{b12fa165c74df96867bbe2f60656a5f6}
+      \strng{bibnamehash}{b12fa165c74df96867bbe2f60656a5f6}
+      \strng{authorbibnamehash}{b12fa165c74df96867bbe2f60656a5f6}
+      \strng{authornamehash}{b12fa165c74df96867bbe2f60656a5f6}
+      \strng{authorfullhash}{b12fa165c74df96867bbe2f60656a5f6}
+      \strng{authorfullhashraw}{b12fa165c74df96867bbe2f60656a5f6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0465043576}
+      \field{title}{The Misbehavior of Markets: A Fractal View of Financial Turbulence}
+      \field{year}{2006}
+      \true{nocite}
+    \endentry
+    \entry{paeng2015stochastic}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=cab60d4fc615fb03ce379c8300544382}{%
+           family={Paeng},
+           familyi={P\bibinitperiod}}}%
+        {{hash=ef41b29c9063a0eaeca19f94b6b32dab}{%
+           family={Seong-Hun},
+           familyi={S\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \strng{fullhash}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \strng{fullhashraw}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \strng{bibnamehash}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \strng{authorbibnamehash}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \strng{authornamehash}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \strng{authorfullhash}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \strng{authorfullhashraw}{847968d0a2ce3ad4144ef33c4fd292ef}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{title}{Stochastic modeling of stock price process induced from the conjugate heat equation}
+      \field{volume}{419}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{385\bibrangedash 394}
+      \range{pages}{10}
+    \endentry
+    \entry{code-fractal-chaos}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=8cb2010d27e13509d364436256e972c0}{%
+           family={{SR}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8cb2010d27e13509d364436256e972c0}
+      \strng{fullhash}{8cb2010d27e13509d364436256e972c0}
+      \strng{fullhashraw}{8cb2010d27e13509d364436256e972c0}
+      \strng{bibnamehash}{8cb2010d27e13509d364436256e972c0}
+      \strng{authorbibnamehash}{8cb2010d27e13509d364436256e972c0}
+      \strng{authornamehash}{8cb2010d27e13509d364436256e972c0}
+      \strng{authorfullhash}{8cb2010d27e13509d364436256e972c0}
+      \strng{authorfullhashraw}{8cb2010d27e13509d364436256e972c0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 30 September 2025}
+      \field{title}{Applying Chaos Theory to Financial Markets: A Python Perspective}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://medium.com/@deepml1818/applying-chaos-theory-to-financial-markets-a-python-perspective-e11fe845e47b
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@deepml1818/applying-chaos-theory-to-financial-markets-a-python-perspective-e11fe845e47b
+      \endverb
+    \endentry
+    \entry{wikipedia-random-walk}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 30 September 2025}
+      \field{title}{Random walk}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Random_walk
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Random_walk
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,15 @@
+If there is no \textbf{arbitrage} (you cannot profit risk-free), the price of a stock at a given time is the discounted value of its future price and dividend:
+\begin{equation*}
+    P_{t}=E_{t}[M_{t+1}(P_{t+1}+D_{t+1})]
+\end{equation*}
+where $E_{t}[\ \cdot\ ]$ is the espected value with information at time $t$, $M_{t+1}$ is the stochastic discount factor and $D_{t+1}$ is the dividend the stock pays next period.\\
+
+If we consider the case with the stochastic discount factor $M$ constant and the time interval is short enough so that no dividend is being paid we have:
+\begin{equation*}
+    P_{t} = M E_{t}[P_{t+1}]
+\end{equation*}
+taking natural logarithms (and using Jensen's inequality) we have:
+\begin{equation*}
+    \ln(P_{t}) = \ln(M) + E_{t}[\ln(P_{t+1})]
+\end{equation*}
+which implies that the logarithm of stock prices follows a driven random walk.

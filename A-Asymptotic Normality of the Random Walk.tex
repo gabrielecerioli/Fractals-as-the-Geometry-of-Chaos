@@ -1,0 +1,62 @@
+In this appendix we provide a concise demonstration of why the distribution of a \textit{simple random walk} converges to the \textit{normal} law as the number of steps increases.\\
+\begin{proof}
+Consider independent random variables $X_1, X_2, \hdots$ where each variable is either $+1$ or $-1$, with a $50\%$ probability for either value.
+Let 
+\begin{equation*}
+    S_n \equiv \sum_{j=1}^n X_j
+\end{equation*}
+the series $\left\{S_n\right\}$ is called \textit{simple random walk} on $\mathbb{Z}$. This series (the sum of the sequence of $-1s$ and $+1s$) gives the net distance walked, if each part of the walk is of length one. By linearity of expectation, we have 
+\begin{equation*}
+    \mathbb{E}[S_n]= \sum_{j=1}^n \mathbb{E}[X_j] = 0
+\end{equation*}
+That is, the mean of all coin flips approaches zero as the number of flips increases.
+A similar calculation, using the independence of the random variables and the fact that $\mathbb{E}[X_j^2] = 1$
+\begin{equation*}
+    \mathbb{E}[S^2_n] = \sum_{j=1}^2 \mathbb{E}[X_j^2] + 2\sum_{1\leq i \leq j \leq n}^n \mathbb{E} [X_i X_j] = n
+\end{equation*}
+%This hints that $\mathbb{E}\left[\abs{S_n}\right]$, the expected translation distance after n steps, should be of the order of $\sqrt{n}$. In fact 
+%\begin{equation*}
+%    \lim_{n \to \infty} \frac{\mathbb{E}[\abs{S_n}]}{\sqrt{n}} = \sqrt{\frac{\pi}{2}}
+%\end{equation*}
+Consider $\{S_n\}$, the random walk of $n$ steps, where each step is either $+1$ or $-1$. 
+There are $2^n$ possible walks in total. 
+
+If the sum of the steps is $S_n = k$, then the number of $+1$ steps must exceed 
+the number of $-1$ steps by $k$. This means that $(n+k)/2$ must be an integer, 
+and exactly $(n+k)/2$ of the $n$ steps must be $+1$. 
+The number of such walks is therefore
+\begin{equation*}
+    \binom{n}{(n+k)/2}
+\end{equation*}
+where it is understood that $n+k$ must be even. 
+Hence, the probability that $S_n = k$ is
+\begin{equation*}
+    P(S_n = k) = 2^{-n} \binom{n}{(n+k)/2}
+\end{equation*}
+
+For large $n$, these probabilities can be estimated using Stirling’s approximation:
+\begin{equation*}
+    \ln (n!) \approx n \ln n - n + \frac{1}{2} \ln (2 \pi n) \quad \text{as } n \to \infty  
+\end{equation*}
+Thus, 
+\begin{equation*}
+    \ln P(S_n = k) 
+    = n \left[ \left(1 + \frac{k}{n} \right) \ln \left(1 + \frac{k}{n} \right) 
+    + \left(1 - \frac{k}{n} - \frac{1}{2n} \right) \ln \left(1 - \frac{k}{n} \right) \right] 
+    + \ln \frac{\sqrt{2}}{\sqrt{\pi}} + o(1)
+\end{equation*}
+
+Fixing the scaling $k = \lfloor \sqrt{n} x \rfloor$, for $x$ fixed, and using the expansion 
+\begin{equation*}
+    \ln \left(1 + \frac{k}{n}\right) = \frac{k}{n} - \frac{1}{2}\left(\frac{k}{n}\right)^2 + \ldots
+\end{equation*}
+when $k/n$ vanishes, it follows
+\begin{equation*}
+    P\left( \frac{S_n}{\sqrt{n}} = \frac{\lfloor \sqrt{n}x \rfloor}{\sqrt{n}} \right) = \frac{1}{\sqrt{n}} \cdot \frac{1}{\sqrt{2\pi}} e^{-x^2/2} \, (1 + o(1))
+\end{equation*}
+
+Taking the limit (and observing that $1/\sqrt{n}$ corresponds to the spacing of the scaling grid) one finds the Gaussian density
+\begin{equation*}
+    f(x) = \frac{1}{\sqrt{2\pi}} e^{-x^2/2}
+\end{equation*}
+\end{proof}

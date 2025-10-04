@@ -1,0 +1,149 @@
+\documentclass[english]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, left=3cm, right=3cm, top=4cm]{geometry}
+
+% Language & links
+\usepackage[english]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{etoolbox}
+
+% Math
+\usepackage{amsmath, amsfonts, amssymb, mathtools}
+\usepackage{mathrsfs}      % script letters
+\usepackage{physics}       % physics notation
+\usepackage{tikz-cd}       % commutative diagrams
+\usepackage{amsthm}        % proof
+
+% Figures
+\usepackage{graphicx} 
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[table,dvipsnames]{xcolor}
+\usepackage{float}
+
+% Tables
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{hhline}
+\usepackage{booktabs}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+
+% Layout
+\usepackage{tcolorbox}     % colored boxes
+\usepackage{enumitem}      % custom lists
+\usepackage{epigraph}      % quotes at section start
+
+% Units
+\usepackage[separate-uncertainty = true]{siunitx}
+
+% Code
+\usepackage{minted}
+
+% Appendix
+\usepackage[toc]{appendix}
+
+% Bibliography
+\usepackage{csquotes}
+\usepackage[backend=biber,style=numeric]{biblatex} 
+\addbibresource{references.bib}
+
+% Fix physics + siunitxW
+\AtBeginDocument{\RenewCommandCopy\qty\SI}
+\ExplSyntaxOn
+\msg_redirect_name:nnn {siunitx}{physics-pkg}{none}
+\ExplSyntaxOff
+
+\setlength{\parindent}{0pt} % No carriage return
+
+\makeatletter
+\def\course#1{\gdef\@course{#1}}
+\def\@course{} % default value
+
+\def\supervisor#1{\gdef\@supervisor{#1}}
+\def\@supervisor{} % default value
+
+\def\@maketitle{%
+    \newpage
+    \null
+    \begin{center}
+        % Logo
+        \includegraphics[width=0.25\linewidth]{img/logo.png}\par\vspace{1cm}
+        
+        % Titolo
+        {\huge\scshape \@title \par}\vspace{0.5cm}
+        \rule{0.7\linewidth}{0.5pt}\vspace{1cm}
+    \end{center}
+    
+    \begin{flushright}
+        {\large \@author \par}
+        {\sffamily \@course \par}
+        \vspace{0.5cm}
+        {\Large\bfseries Supervisor: \@supervisor \par}
+        \vspace{0.5cm}
+        {\Large \@date \par}
+    \end{flushright}
+}
+\makeatother
+
+\title{Uncertainty in Financial Markets: Fractals as the Geometry of Chaos}
+\author{Cerioli Gabriele, Cleva Tommaso, Daniel Chiara, Shubham Khumar, Awais Mohammad}
+\supervisor{Prof. Michele Cirafici}
+\date{September 2025}
+
+\begin{document}
+
+\maketitle
+
+\vspace{1cm}
+\begin{center}
+    \epigraph{\large\textit{“I can calculate the motions of the heavenly bodies but not the madness of people”}%
+    \normalsize\ (after losing a third of his money to investments)}%
+    {\large\scshape Isaac Newton}
+\end{center}
+
+
+\vfill
+\begin{center}
+    \includegraphics[width=0.35\linewidth]{img/mandelbrot.jpg}\\[0.3cm]
+    \small In memory of Professor Benoit Mandelbrot (1924--2010).
+\end{center}
+
+
+\newpage
+\tableofcontents
+
+\newpage
+\section{Classical models for finance}
+\input{1-Classical models for finance}
+
+\section{Black Swans in the stock puddle}
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.65\linewidth]{img/Copilot_20250925_235000.png}
+\end{figure}
+\input{2-Black Swans in the stock puddle}
+
+\section{Why fractals: modeling uncertainty through fractal analysis}
+\input{3-Why fractals: modeling uncertainty through fractal anal- ysis}
+
+\newpage
+
+\appendix
+
+\section{Asymptotic Normality of the Random Walk} \label{app:A}
+\input{A-Asymptotic Normality of the Random Walk}
+
+\section{From Black–Scholes to the Heat Equation} \label{app:B}
+\input{B-Heat_Equation}
+
+\section{Measures of Fractal dimension} \label{app:C}
+\input{C-Box dimension}
+
+\newpage
+\nocite{*}
+\printbibliography
+
+\end{document}
