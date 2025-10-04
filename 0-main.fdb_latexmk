@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber 0-main"] 1759592043.09371 "0-main.bcf" "0-main.bbl" "0-main" 1759592167.24744 0
-  "0-main.bcf" 1759592167.07516 108557 13ea85f77b38f3f397105817e91fcd19 "pdflatex"
+["biber 0-main"] 1759592043.09371 "0-main.bcf" "0-main.bbl" "0-main" 1759593046.81253 0
+  "0-main.bcf" 1759593046.6026 108557 13ea85f77b38f3f397105817e91fcd19 "pdflatex"
   "references.bib" 1759581714 1813 8f12cd9e6a9c7a857c09fc98ade41daa ""
   (generated)
   "0-main.bbl"
   "0-main.blg"
   (rewritten before read)
-["pdflatex"] 1759592163.4128 "/home/gabriele/Desktop/Latex_documents/Fractals as the Geometry of Chaos/0-main.tex" "0-main.pdf" "0-main" 1759592167.24789 0
+["pdflatex"] 1759593042.84007 "/home/gabriele/Desktop/Latex_documents/Fractals as the Geometry of Chaos/0-main.tex" "0-main.pdf" "0-main" 1759593046.81338 0
   "/etc/texmf/web2c/texmf.cnf" 1759591315.18001 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/gabriele/Desktop/Latex_documents/Fractals as the Geometry of Chaos/0-main.tex" 1759592163.16886 3586 c552612a98e03f9783b106f7cff57cba ""
+  "/home/gabriele/Desktop/Latex_documents/Fractals as the Geometry of Chaos/0-main.tex" 1759593045.31887 3584 f89e78413ae5bbf79ead07a2a3d3babf ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -254,12 +254,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759591338 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1759591431 3348606 670e2b4c965eb626d9370db5b3b0a806 ""
-  "0-main.aux" 1759592167.07016 9694 34b12e299deda25b781dc58e843b9fdf "pdflatex"
+  "0-main.aux" 1759593046.5986 9694 34b12e299deda25b781dc58e843b9fdf "pdflatex"
   "0-main.bbl" 1759592044.06908 9920 902a7d0562023021cf35c65f4e14ca67 "biber 0-main"
-  "0-main.out" 1759592167.07316 4995 bed2eddd3df8dd8b3ef503a2904dbe4e "pdflatex"
-  "0-main.run.xml" 1759592167.07832 2319 9bbe5bc5e6ce2771f8e358e5b9e13581 "pdflatex"
-  "0-main.tex" 1759592163.16886 3586 c552612a98e03f9783b106f7cff57cba ""
-  "0-main.toc" 1759592167.07832 2092 ee4f3bdc062fa5c965788e3a1857e20b "pdflatex"
+  "0-main.out" 1759593046.6016 4995 bed2eddd3df8dd8b3ef503a2904dbe4e "pdflatex"
+  "0-main.run.xml" 1759593046.60475 2319 9bbe5bc5e6ce2771f8e358e5b9e13581 "pdflatex"
+  "0-main.tex" 1759593045.31887 3584 f89e78413ae5bbf79ead07a2a3d3babf ""
+  "0-main.toc" 1759593046.60475 2092 ee4f3bdc062fa5c965788e3a1857e20b "pdflatex"
   "1-Classical models for finance.tex" 1759581714 9324 4bd76b432a936cb5b837cf0afd048c76 ""
   "2-Black Swans in the stock puddle.tex" 1759581714 1488 287aad5aae664b69bc1842fbac3ef8ae ""
   "3-Why fractals: modeling uncertainty through fractal anal- ysis.tex" 1759581714 19076 9c687f9b92f65f487402d834ba8eae2c ""
