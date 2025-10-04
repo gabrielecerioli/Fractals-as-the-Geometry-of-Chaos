@@ -9,8 +9,8 @@
 \contentsline {section}{\numberline {3}Why fractals: modeling uncertainty through fractal analysis}{9}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Power laws and fat tails distributions}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}What are fractals?}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Fractality in the finantial market}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Chaos in the finantial market}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.3}Fractality in the financial market}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Chaos in the financial market}{13}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Takens' Theorem: The importance of the Past in Reconstructing the future}{13}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}How fractals can explain the market? (k-NN method)}{14}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Case study - Chaos in the Bitcoin price}{17}{subsection.3.7}%

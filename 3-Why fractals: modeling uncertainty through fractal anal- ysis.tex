@@ -19,7 +19,7 @@ An event 8 standard deviation from the mean:
 Using a thin-tailed model for a fat-tailed phenomenon means underestimating risk of extreme events.
 \begin{figure} [H]
     \centering
-    \includegraphics[width=1\linewidth]{img/ee.png}
+    \includegraphics[width=0.65\linewidth]{img/WhatsApp Image 2025-10-04 at 22.22.36.png}
     \caption{Normal distribution vs Power law Distribution.}
     %\label{fig:placeholder}
 \end{figure}
@@ -39,14 +39,14 @@ For example, a straight line is not a fractal, since it is self similar but it l
     \includegraphics[width=0.65\linewidth]{img/Mandel_zoom_00_mandelbrot_set.jpg}
     \caption{The boundary of the Mandelbrot set is a fractal curve.}
 \end{figure}
-\subsection{Fractality in the finantial market}
+\subsection{Fractality in the financial market}
 \textbf{What evidence suggests that financial markets may exhibit fractal properties?}
 \begin{itemize}
     \item When comparing the price charts and log-returns of different financial markets, it is very difficult to identify significant differences.
     \begin{figure} [H]
         \centering
         \includegraphics[width=1\linewidth]{img/fractal_1.png}
-        \caption{There are very little differences in these three different finantial markets.}
+        \caption{There are very little differences in these three different financial markets.}
     \end{figure}
     \item If we take the liberty of examining the price charts of the New York Stock Exchange (NYSE) while concealing the axis labels and applying suitable dilations or contractions along the vertical axis, it becomes impossible to distinguish one time scale from another—that is, whether we are observing price variations over the course of a single day or an entire year.
 
@@ -96,10 +96,10 @@ For example, a straight line is not a fractal, since it is self similar but it l
     It is evident from the simple experiment just carried out that financial markets exhibit \textbf{self~-~similarity} across different time scales and detailed structure at arbitrarily small scales.
 \end{itemize}
 
-\subsection{Chaos in the finantial market}
+\subsection{Chaos in the financial market}
 Another characteristic that helps explain the irregularity of financial markets is their \textbf{chaotic nature}. Sudden crashes, bursts of volatility, and persistent cycles suggest that markets may not be purely random, but rather governed by nonlinear dynamics that resemble chaotic systems.\\
 
-Chaos does not imply complete disorder. Instead, it refers to systems that are deterministic in structure yet highly sensitive to initial conditions—a phenomenon widely known as the “Butterfly Effect.” This sensitivity makes long-term prediction practically impossible, even when the underlying rules are well defined.\\
+Chaos does not imply complete disorder. Instead, it refers to systems that are deterministic in structure yet highly sensitive to initial conditions a phenomenon widely known as the “Butterfly Effect.” This sensitivity makes long-term prediction practically impossible, even when the underlying rules are well defined.\\
 
 As we will illustrate with an example in this chapter, the chaotic nature of financial dynamics can be detected in real BTC-USD price data.\\
 In particular, we will find that the data follow an \textbf{attractor}, that is, a set of states toward which the system tends to evolve over time, regardless of small modifications to the initial conditions. Specifically, the attractor we will identify is a \textbf{strange attractor}, a hallmark of a chaotic system, since its fractal dimension is non-integer, thereby exhibiting self-similarity across different scales and trajectories that never repeat exactly, while still remaining within the basin of attraction.
@@ -112,7 +112,7 @@ In particular, we will find that the data follow an \textbf{attractor}, that is,
 \subsection{Takens' Theorem: The importance of the Past in Reconstructing the future}
 Having introduced the notion of strange attractors as the geometric signature of chaos, we are now in a position to ask how such structures can be uncovered from real data.\\
 
-In practice, we rarely have access to the full set of equations governing a system; instead, we tipically observe only a \textbf{single time series}, such as a financial price.\\
+In practice, we rarely have access to the full set of equations governing a system; instead, we typically observe only a \textbf{single time series}, such as a financial price.\\
 
 \textbf{Takens' embedding theorem} (1981, Floris Takens) represents a cornerstone in the study of nonlinear dynamics and chaos.\\
 
@@ -120,7 +120,7 @@ At its core, the theorem demonstrates that it is possible to reconstruct the und
 
 This justifies the use of \textbf{time-delay embedding methods} to forecast the behavior of chaotic systems such as financial markets. An example of these methods will be discussed in the following chapter.\\
 
-A mathematically rigorous formulation of the theorem's statement would require advanced knowledge and would centainly fall beyond the scope of this review.\\
+A mathematically rigorous formulation of the theorem's statement would require advanced knowledge and would certainly fall beyond the scope of this review.\\
 
 Nevertheless we can still grasp the general idea of the theorem, but since it is not essential for understanding the following chapters, what follows may be skipped:\\
 
@@ -151,7 +151,7 @@ The horizontal axis represents the lagged values, while the vertical axis repres
     
     There are plenty of other algorithms that one may use to compute the fractal dimension of a set of points (as the correlation dimension explained in Appendix \ref{app:C_Correlation_dimension}).
     \item \textbf{Find the optimal lag length} $\boldsymbol{\tilde{L}}$:\\
-    It is necessary to decide the lenght of the lag. If it is too short, the reconstructed space does not capture enough of the underlying structure; if it is too long, the representation becomes redundant and noisy.\\
+    It is necessary to decide the length of the lag. If it is too short, the reconstructed space does not capture enough of the underlying structure; if it is too long, the representation becomes redundant and noisy.\\
     
     
     The lag length specifies the number of steps back in time that must be considered when constructing the pairs in the lag plot. \\
@@ -166,7 +166,7 @@ The horizontal axis represents the lagged values, while the vertical axis repres
         \caption{Fractal dimension of the lag plots for increasing lag values.}
         %\label{fig:placeholder}
     \end{figure}
-    As the lag grows, the estimated fractal dimension will initially increase, since we are discovering new independent information. At some point, however, the dimension stabilizes within a fixed small tolerance ($\varepsilon$). The lag value at which this stabilization occurs is chosen as the optimal lag lenght $\tilde{L}$.\\
+    As the lag grows, the estimated fractal dimension will initially increase, since we are discovering new independent information. At some point, however, the dimension stabilizes within a fixed small tolerance ($\varepsilon$). The lag value at which this stabilization occurs is chosen as the optimal lag length $\tilde{L}$.\\
 
     
     (\textit{In the multi-lag embedding you can compute the fractal dimension by covering the $N$-dimensional plot with hyper-cubes})\\
@@ -174,7 +174,7 @@ The horizontal axis represents the lagged values, while the vertical axis repres
     
     Basically what we have computed is the smallest number of past observations needed to capture the intrinsic complexity of the time series without adding unnecessary redundancy.
     \item \textbf{Optimal number of lag points:}\\
-    The aim here is doing an interpolation whithin a set of nearest neighbors of the current point.\\
+    The aim here is doing an interpolation within a set of nearest neighbors of the current point.\\
     But we need to choose the optimal number of neighbouring lag points $\tilde{k}$.\\
     If too few neighbors are selected, the interpolation becomes unstable and overly sensitive to noise: however if too many are included, the prediction is oversmoothed and loses the local structure of the dynamics. \\
 
@@ -183,7 +183,7 @@ The horizontal axis represents the lagged values, while the vertical axis repres
     \begin{equation*}
         \tilde{k} \sim  \mathcal{O}(f)
     \end{equation*}
-    and more specifically, a prectical rule of thumb is given by: $\tilde{k}=2f+1$.
+    and more specifically, a practical rule of thumb is given by: $\tilde{k}=2f+1$.
 
 
     The conjecture is of course meaningful:
@@ -195,7 +195,7 @@ The horizontal axis represents the lagged values, while the vertical axis repres
     We perform interpolation using the nearest neighbours, since we believe that similar past states tend to evolve in similar ways. 
     We need to reconstruct the lag plot (using $\tilde{L}$) and choose a distance metric (typically the Euclidean distance) to identify the $\tilde{k}$ nearest neighbours.
 
-    Once the nearest neighbours are identified, their subsequent values (what their value have become) are collected and used to estimate the future of the current state.\\
+    Once the nearest neighbours are identified, their subsequent values (what their values have become) are collected and used to estimate the future of the current state.\\
     \\
 \begin{figure} [H]
     \centering

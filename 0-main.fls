@@ -419,6 +419,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtcsc10.tfm
 INPUT ./img/mandelbrot.jpg
 INPUT ./img/mandelbrot.jpg
 INPUT ./img/mandelbrot.jpg
@@ -504,11 +505,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT ./img/ee.png
-INPUT ./img/ee.png
-INPUT ./img/ee.png
-INPUT ./img/ee.png
-INPUT ./img/ee.png
+INPUT ./img/WhatsApp Image 2025-10-04 at 22.22.36.png
+INPUT ./img/WhatsApp Image 2025-10-04 at 22.22.36.png
+INPUT ./img/WhatsApp Image 2025-10-04 at 22.22.36.png
+INPUT ./img/WhatsApp Image 2025-10-04 at 22.22.36.png
+INPUT ./img/WhatsApp Image 2025-10-04 at 22.22.36.png
 INPUT ./img/Mandel_zoom_00_mandelbrot_set.jpg
 INPUT ./img/Mandel_zoom_00_mandelbrot_set.jpg
 INPUT ./img/Mandel_zoom_00_mandelbrot_set.jpg
@@ -626,11 +627,13 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
