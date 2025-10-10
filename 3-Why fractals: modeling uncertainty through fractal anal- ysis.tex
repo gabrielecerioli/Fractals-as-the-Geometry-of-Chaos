@@ -127,7 +127,7 @@ Nevertheless we can still grasp the general idea of the theorem, but since it is
 \textit{Suppose we have a $d$-dimensional state vector $x_t$ that evolves according to an unkown but continuous and deterministic dynamic.} \textit{In simple terms, we require that the differential equations governing the system be continuous and deterministic. This is crucial, since if the system were purely stochastic, there would be no way to reconstruct its evolution.}\\
 \textit{Suppose, too, that the one-dimensional observable $y$ is a smooth function of $x$, and coupled to all the components of $x$. In our case this $y$ may be the price at a given time.}\\
 
-\textit{At any time we can look not just at the present measurement $y(t)$, but also at observations made at times removed from us by multiples of some lag $\tau$: $y_{t+\tau},t_{t+2\tau},...$.\\}
+\textit{At any time we can look not just at the present measurement $y(t)$, but also at observations made at times removed from us by multiples of some lag $\tau$: $y_{t+\tau},y_{t+2\tau},...$.\\}
 \textit{If we use $k$ lags, we will have a $k$-dimensional vector.\\}
 \textit{As one might expect, in the limit $k \to \infty$ the motion on the lagged space becomes deterministic at a finite dimension; not only that, but this deterministic dynamics (in the lagged space) are equivalent to those of the original state space. (They are related by a smooth, invertible change of coordinates, or if you like it more a diffeomorphism.)}
 
@@ -265,6 +265,9 @@ Let us apply what we have discovered to the price of Bitcoin in US dollars from 
     \end{figure}
     Here we plotted the prices for the last 60 days (black) and the 30-day ahead forecasts produced by the k-NN algorithm (in purple). The actual prices for January 2025 are shown in green.
     
-    As shown in the chart, our forecasts closely track the actual prices only for the very first days, then match only the general trend. This should not surprise us since the algorithm is primarily designed to predict the next single price, and the observed discrepancy is merely further evidence of the system’s chaotic nature.\\
+   As shown in the chart, our forecasts are able to closely follow the actual prices only during the very first days. After that, they tend to reproduce merely the overall trend rather than the precise fluctuations. This outcome is not surprising, since the k-NN algorithm is inherently a one-step-ahead forecasting method. When applied iteratively, it inevitably accumulates errors at each step, which progressively amplifies the discrepancy from the true values.\\
+   
+   Moreover, due to its intrinsic structure—based on “local” interpolation—it can only capture short-term, local dynamics (and possibly local chaotic behavior) in the phase space. It is not designed to recognize or reproduce broader chaotic patterns, which further explains why its predictions gradually diverge from the actual price trajectory.\\
+   
     \textit{(Some may view this as empirical evidence supporting the Efficient Market Hypothesis (EMH), but remember that we used a very simplistic algorithm, and far more complex and accurate methods exist that also make use of machine learning.)}
 \end{itemize}

@@ -148,6 +148,8 @@ After some number of steps, one should get the Black--Scholes/Merton equation:
 \begin{equation} \label{eq:Black–Scholes}
     \pdv{V}{t} + rS \pdv{V}{S} + \frac{1}{2} \sigma^2 S^2 \pdv[2]{V}{S} - rV = 0
 \end{equation}
+Where $V$ is the price of the option, $S$ the price of the asset, $t$ the time, $\sigma$ is the volatility of the asset and $r$ is the risk-free interest rate. \\
+
 In this case, since the log of the price follows an arithmetic brownian motion, it also solves the Fourier's heat equation.
 We refer to Appendix~\ref{app:B} for the derivation transforming the Black--Scholes equation into the heat equation, and to Appendix~\ref{app:B_solution_Black-Scholes} for the detailed calculations leading to its solution.
 
