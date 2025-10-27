@@ -280,6 +280,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty

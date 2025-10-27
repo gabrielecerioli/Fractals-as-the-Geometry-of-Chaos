@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.4)  11 OCT 2025 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.4)  27 OCT 2025 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -635,6 +635,8 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 \afterepigraphskip=\skip69
 \epigraphwidth=\skip70
 \epigraphrule=\skip71
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-02-27 v3.4.6 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count341
@@ -999,24 +1001,24 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./0-main.aux)
 \openout1 = `0-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1052,7 +1054,7 @@ LaTeX Font Info:    ... okay on input line 95.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 95.
+Package hyperref Info: Link coloring OFF on input line 97.
 (./0-main.out) (./0-main.out)
 \@outlinefile=\write6
 \openout6 = `0-main.out'.
@@ -1082,7 +1084,7 @@ Package caption Info: End \AtBeginDocument code.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 95.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 97.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1096,29 +1098,29 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '0-main.bbl' found.
  (./0-main.bbl)
-Package biblatex Info: Reference section=0 on input line 95.
-Package biblatex Info: Reference segment=0 on input line 95.
+Package biblatex Info: Reference section=0 on input line 97.
+Package biblatex Info: Reference segment=0 on input line 97.
 <img/logo.png, id=91, 1003.75pt x 1003.75pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png  used on input line 98.
+Package pdftex.def Info: img/logo.png  used on input line 100.
 (pdftex.def)             Requested size: 106.69783pt x 106.69106pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 103.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 103.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 103.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 <img/mandelbrot.jpg, id=93, 2922.92pt x 2922.92pt>
 File: img/mandelbrot.jpg Graphic file (type jpg)
 <use img/mandelbrot.jpg>
-Package pdftex.def Info: img/mandelbrot.jpg  used on input line 109.
+Package pdftex.def Info: img/mandelbrot.jpg  used on input line 111.
 (pdftex.def)             Requested size: 213.39568pt x 213.36693pt.
 
 
@@ -1178,13 +1180,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
  []
 
 
+
+[6 <./img/Galton_Board_5.jpeg>]
 Underfull \hbox (badness 1400) in paragraph at lines 107--107
 []|\OT1/cmr/bx/n/10 Efficient Mar-ket Hy-
  []
 
-
-
-[6 <./img/Galton_Board_5.jpeg>]
 <img/GBM.png, id=169, 642.4pt x 481.8pt>
 File: img/GBM.png Graphic file (type png)
 <use img/GBM.png>
@@ -1206,82 +1207,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--152
 <img/Copilot_20250925_235000.png, id=181, 1541.76pt x 1027.84pt>
 File: img/Copilot_20250925_235000.png Graphic file (type png)
 <use img/Copilot_20250925_235000.png>
-Package pdftex.def Info: img/Copilot_20250925_235000.png  used on input line 126.
+Package pdftex.def Info: img/Copilot_20250925_235000.png  used on input line 128.
 (pdftex.def)             Requested size: 277.41176pt x 184.94048pt.
  (./2-Black Swans in the stock puddle.tex
 
-[8 <./img/Copilot_20250925_235000.png (PNG copy)>]) (./3-Why fractals: modeling uncertainty through fractal anal- ysis.tex
+[8]) (./3-Why fractals: modeling uncertainty through fractal anal- ysis.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<img/market_comparison.jpg, id=189, 1413.28pt x 811.03pt>
+
+
+[9 <./img/Copilot_20250925_235000.png (PNG copy)>]
+<img/market_comparison.jpg, id=193, 1413.28pt x 811.03pt>
 File: img/market_comparison.jpg Graphic file (type jpg)
 <use img/market_comparison.jpg>
 Package pdftex.def Info: img/market_comparison.jpg  used on input line 7.
 (pdftex.def)             Requested size: 426.79135pt x 244.91966pt.
-
-
-[9]
 <img/WhatsApp Image 2025-10-04 at 22.22.36.png, id=194, 945.5325pt x 598.235pt>
 File: img/WhatsApp Image 2025-10-04 at 22.22.36.png Graphic file (type png)
 <use img/WhatsApp Image 2025-10-04 at 22.22.36.png>
 Package pdftex.def Info: img/WhatsApp Image 2025-10-04 at 22.22.36.png  used on input line 22.
 (pdftex.def)             Requested size: 277.41176pt x 175.51932pt.
 
+
+[10 <./img/market_comparison.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-
-
-[10 <./img/market_comparison.jpg> <./img/WhatsApp Image 2025-10-04 at 22.22.36.png>]
-<img/Mandel_zoom_00_mandelbrot_set.jpg, id=204, 953.5625pt x 714.67pt>
+<img/Mandel_zoom_00_mandelbrot_set.jpg, id=202, 953.5625pt x 714.67pt>
 File: img/Mandel_zoom_00_mandelbrot_set.jpg Graphic file (type jpg)
 <use img/Mandel_zoom_00_mandelbrot_set.jpg>
 Package pdftex.def Info: img/Mandel_zoom_00_mandelbrot_set.jpg  used on input line 39.
 (pdftex.def)             Requested size: 277.41176pt x 207.91418pt.
-<img/fractal_1.png, id=205, 715.67375pt x 355.3275pt>
+
+
+[11 <./img/WhatsApp Image 2025-10-04 at 22.22.36.png>]
+<img/fractal_1.png, id=209, 715.67375pt x 355.3275pt>
 File: img/fractal_1.png Graphic file (type png)
 <use img/fractal_1.png>
 Package pdftex.def Info: img/fractal_1.png  used on input line 48.
 (pdftex.def)             Requested size: 426.79135pt x 211.90231pt.
-
-
-[11 <./img/Mandel_zoom_00_mandelbrot_set.jpg>]
-<img/1d.png, id=211, 882.29625pt x 340.27126pt>
+<img/1d.png, id=210, 882.29625pt x 340.27126pt>
 File: img/1d.png Graphic file (type png)
 <use img/1d.png>
 Package pdftex.def Info: img/1d.png  used on input line 58.
 (pdftex.def)             Requested size: 192.0548pt x 74.0655pt.
-<img/5d.png, id=212, 882.29625pt x 340.27126pt>
+<img/5d.png, id=211, 882.29625pt x 340.27126pt>
 File: img/5d.png Graphic file (type png)
 <use img/5d.png>
 Package pdftex.def Info: img/5d.png  used on input line 64.
 (pdftex.def)             Requested size: 192.0548pt x 74.0655pt.
-<img/1m.png, id=213, 882.29625pt x 340.27126pt>
+<img/1m.png, id=212, 882.29625pt x 340.27126pt>
 File: img/1m.png Graphic file (type png)
 <use img/1m.png>
 Package pdftex.def Info: img/1m.png  used on input line 71.
 (pdftex.def)             Requested size: 192.0548pt x 74.0655pt.
-<img/1y.png, id=214, 882.29625pt x 340.27126pt>
+<img/1y.png, id=213, 882.29625pt x 340.27126pt>
 File: img/1y.png Graphic file (type png)
 <use img/1y.png>
 Package pdftex.def Info: img/1y.png  used on input line 77.
 (pdftex.def)             Requested size: 192.0548pt x 74.0655pt.
-<img/5y.png, id=215, 882.29625pt x 340.27126pt>
+<img/5y.png, id=214, 882.29625pt x 340.27126pt>
 File: img/5y.png Graphic file (type png)
 <use img/5y.png>
 Package pdftex.def Info: img/5y.png  used on input line 84.
 (pdftex.def)             Requested size: 192.0548pt x 74.0655pt.
-<img/30y.png, id=216, 882.29625pt x 340.27126pt>
+<img/30y.png, id=215, 882.29625pt x 340.27126pt>
 File: img/30y.png Graphic file (type png)
 <use img/30y.png>
 Package pdftex.def Info: img/30y.png  used on input line 90.
 (pdftex.def)             Requested size: 192.0548pt x 74.0655pt.
 
 
-[12 <./img/fractal_1.png> <./img/1d.png> <./img/5d.png> <./img/1m.png> <./img/1y.png> <./img/5y.png> <./img/30y.png>]
+[12 <./img/Mandel_zoom_00_mandelbrot_set.jpg> <./img/fractal_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -1291,12 +1291,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-<img/image.png, id=230, 562.1pt x 421.575pt>
+<img/image.png, id=223, 562.1pt x 421.575pt>
 File: img/image.png Graphic file (type png)
 <use img/image.png>
 Package pdftex.def Info: img/image.png  used on input line 108.
 (pdftex.def)             Requested size: 320.0935pt x 240.06866pt.
 
+
+[13 <./img/1d.png> <./img/5d.png> <./img/1m.png> <./img/1y.png> <./img/5y.png> <./img/30y.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
@@ -1307,8 +1309,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
  []
 
 
-
-[13 <./img/image.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
@@ -1329,6 +1329,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
  []
 
 
+
+[14 <./img/image.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
@@ -1345,7 +1347,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
 
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
@@ -1355,7 +1357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-<img/image2.png, id=243, 513.41812pt x 348.55219pt>
+<img/image2.png, id=247, 513.41812pt x 348.55219pt>
 File: img/image2.png Graphic file (type png)
 <use img/image2.png>
 Package pdftex.def Info: img/image2.png  used on input line 165.
@@ -1366,18 +1368,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
  []
 
 
+
+[16 <./img/image2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 
-
-[15 <./img/image2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
-<img/interpolation.png, id=251, 837.88031pt x 503.63156pt>
+<img/interpolation.png, id=255, 837.88031pt x 503.63156pt>
 File: img/interpolation.png Graphic file (type png)
 <use img/interpolation.png>
 Package pdftex.def Info: img/interpolation.png  used on input line 202.
@@ -1394,39 +1396,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--204
 
 
 
-[16 <./img/interpolation.png>]
-<img/bitcoin_prices.png, id=258, 860.013pt x 426.393pt>
+[17]
+<img/bitcoin_prices.png, id=260, 860.013pt x 426.393pt>
 File: img/bitcoin_prices.png Graphic file (type png)
 <use img/bitcoin_prices.png>
 Package pdftex.def Info: img/bitcoin_prices.png  used on input line 218.
 (pdftex.def)             Requested size: 426.79135pt x 211.60194pt.
-<img/lag_plot_bitcoin.png, id=259, 704.6325pt x 549.05125pt>
+
+
+[18 <./img/interpolation.png>]
+<img/lag_plot_bitcoin.png, id=268, 704.6325pt x 549.05125pt>
 File: img/lag_plot_bitcoin.png Graphic file (type png)
 <use img/lag_plot_bitcoin.png>
 Package pdftex.def Info: img/lag_plot_bitcoin.png  used on input line 227.
 (pdftex.def)             Requested size: 320.0935pt x 249.41656pt.
 
 
-[17 <./img/bitcoin_prices.png>]
-<img/bitcoin_dimension.png, id=267, 696.6025pt x 554.07pt>
+[19 <./img/bitcoin_prices.png> <./img/lag_plot_bitcoin.png>]
+<img/bitcoin_dimension.png, id=278, 696.6025pt x 554.07pt>
 File: img/bitcoin_dimension.png Graphic file (type png)
 <use img/bitcoin_dimension.png>
 Package pdftex.def Info: img/bitcoin_dimension.png  used on input line 240.
 (pdftex.def)             Requested size: 209.1301pt x 166.34064pt.
-<img/correlation_dimension.png, id=268, 696.6025pt x 554.07pt>
+<img/correlation_dimension.png, id=279, 696.6025pt x 554.07pt>
 File: img/correlation_dimension.png Graphic file (type png)
 <use img/correlation_dimension.png>
 Package pdftex.def Info: img/correlation_dimension.png  used on input line 246.
 (pdftex.def)             Requested size: 209.1301pt x 166.34064pt.
-
-
-[18 <./img/lag_plot_bitcoin.png> <./img/bitcoin_dimension.png> <./img/correlation_dimension.png>]
-<img/forecast.png, id=280, 857.1222pt x 426.393pt>
+<img/forecast.png, id=282, 857.1222pt x 426.393pt>
 File: img/forecast.png Graphic file (type png)
 <use img/forecast.png>
 Package pdftex.def Info: img/forecast.png  used on input line 263.
 (pdftex.def)             Requested size: 426.79135pt x 212.31763pt.
 
+
+[20 <./img/bitcoin_dimension.png> <./img/correlation_dimension.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
@@ -1443,30 +1447,32 @@ Overfull \hbox (1.0727pt too wide) in paragraph at lines 272--273
 
 )
 
-[19 <./img/forecast.png>] (./A-Asymptotic Normality of the Random Walk.tex
+[21 <./img/forecast.png>] (./A-Asymptotic Normality of the Random Walk.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
 
 
 
-[20]) (./B-Heat_Equation.tex
+[22]) (./B-Heat_Equation.tex
 
-[21]
+[23]
 
-[22]) (./C-Box dimension.tex
+[24]
+
+[25]) (./C-Box dimension.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-<img/curva di Van Koch.jpg, id=303, 146.04562pt x 204.01219pt>
+<img/curva di Van Koch.jpg, id=316, 146.04562pt x 204.01219pt>
 File: img/curva di Van Koch.jpg Graphic file (type jpg)
 <use img/curva di Van Koch.jpg>
 Package pdftex.def Info: img/curva di Van Koch.jpg  used on input line 7.
 (pdftex.def)             Requested size: 149.37958pt x 208.68736pt.
 
 
-[23]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -1478,12 +1484,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 
 
-[24 <./img/curva di Van Koch.jpg>])
+[27 <./img/curva di Van Koch.jpg>])
 
-[25]
+[28]
 
-[26]
-runsystem(latexminted cleantemp  --timestamp 20251011000047 6DE7A30E1B72B2FC12023FF1CF8F947A)...executed safely (allowed).
+[29]
+runsystem(latexminted cleantemp  --timestamp 20251027202337 6DE7A30E1B72B2FC12023FF1CF8F947A)...executed safely (allowed).
 
  (./0-main.aux)
  ***********
@@ -1497,18 +1503,18 @@ Package logreq Info: Writing requests to '0-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44043 strings out of 473197
- 937578 string characters out of 5718605
- 1826878 words of memory out of 5000000
- 66611 multiletter control sequences out of 15000+600000
+ 44086 strings out of 473197
+ 938462 string characters out of 5718605
+ 1826277 words of memory out of 5000000
+ 66647 multiletter control sequences out of 15000+600000
  571302 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,11n,121p,770b,1836s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on 0-main.pdf (26 pages, 7267636 bytes).
+Output written on 0-main.pdf (29 pages, 7268580 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 335 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
