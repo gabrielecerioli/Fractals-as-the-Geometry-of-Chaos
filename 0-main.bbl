@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{procaccia}{article}{}{}
+  \datalist[entry]{nty/global//global/global}
+    \entry{procaccia}{article}{}
       \name{author}{2}{}{%
         {{hash=3cd1291c7a91fcb1a8ac54e2e8699f32}{%
            family={Grassberger},
@@ -37,12 +37,10 @@
       }
       \strng{namehash}{4bbf191202bacad563c63c31ef4c70be}
       \strng{fullhash}{4bbf191202bacad563c63c31ef4c70be}
-      \strng{fullhashraw}{4bbf191202bacad563c63c31ef4c70be}
       \strng{bibnamehash}{4bbf191202bacad563c63c31ef4c70be}
       \strng{authorbibnamehash}{4bbf191202bacad563c63c31ef4c70be}
       \strng{authornamehash}{4bbf191202bacad563c63c31ef4c70be}
       \strng{authorfullhash}{4bbf191202bacad563c63c31ef4c70be}
-      \strng{authorfullhashraw}{4bbf191202bacad563c63c31ef4c70be}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -55,7 +53,7 @@
       \field{pages}{189\bibrangedash 208}
       \range{pages}{20}
     \endentry
-    \entry{joyner2016black}{article}{}{}
+    \entry{joyner2016black}{article}{}
       \name{author}{1}{}{%
         {{hash=22f76a6b9ca9ea8aa217c6995880a998}{%
            family={Joyner},
@@ -68,12 +66,10 @@
       }
       \strng{namehash}{22f76a6b9ca9ea8aa217c6995880a998}
       \strng{fullhash}{22f76a6b9ca9ea8aa217c6995880a998}
-      \strng{fullhashraw}{22f76a6b9ca9ea8aa217c6995880a998}
       \strng{bibnamehash}{22f76a6b9ca9ea8aa217c6995880a998}
       \strng{authorbibnamehash}{22f76a6b9ca9ea8aa217c6995880a998}
       \strng{authornamehash}{22f76a6b9ca9ea8aa217c6995880a998}
       \strng{authorfullhash}{22f76a6b9ca9ea8aa217c6995880a998}
-      \strng{authorfullhashraw}{22f76a6b9ca9ea8aa217c6995880a998}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
@@ -83,7 +79,7 @@
       \field{year}{2016}
       \true{nocite}
     \endentry
-    \entry{lecture}{online}{}{}
+    \entry{lecture}{online}{}
       \name{author}{1}{}{%
         {{hash=83ced72c407b4739f234545c111ae19f}{%
            family={Mandelbrot},
@@ -93,12 +89,10 @@
       }
       \strng{namehash}{83ced72c407b4739f234545c111ae19f}
       \strng{fullhash}{83ced72c407b4739f234545c111ae19f}
-      \strng{fullhashraw}{83ced72c407b4739f234545c111ae19f}
       \strng{bibnamehash}{83ced72c407b4739f234545c111ae19f}
       \strng{authorbibnamehash}{83ced72c407b4739f234545c111ae19f}
       \strng{authornamehash}{83ced72c407b4739f234545c111ae19f}
       \strng{authorfullhash}{83ced72c407b4739f234545c111ae19f}
-      \strng{authorfullhashraw}{83ced72c407b4739f234545c111ae19f}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -114,7 +108,7 @@
       \verb https://www.youtube.com/watch?v=ock9Gk_aqw4
       \endverb
     \endentry
-    \entry{book_mandelbrot}{book}{}{}
+    \entry{book_mandelbrot}{book}{}
       \name{author}{2}{}{%
         {{hash=83ced72c407b4739f234545c111ae19f}{%
            family={Mandelbrot},
@@ -132,12 +126,10 @@
       }
       \strng{namehash}{b12fa165c74df96867bbe2f60656a5f6}
       \strng{fullhash}{b12fa165c74df96867bbe2f60656a5f6}
-      \strng{fullhashraw}{b12fa165c74df96867bbe2f60656a5f6}
       \strng{bibnamehash}{b12fa165c74df96867bbe2f60656a5f6}
       \strng{authorbibnamehash}{b12fa165c74df96867bbe2f60656a5f6}
       \strng{authornamehash}{b12fa165c74df96867bbe2f60656a5f6}
       \strng{authorfullhash}{b12fa165c74df96867bbe2f60656a5f6}
-      \strng{authorfullhashraw}{b12fa165c74df96867bbe2f60656a5f6}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -147,7 +139,7 @@
       \field{year}{2006}
       \true{nocite}
     \endentry
-    \entry{paeng2015stochastic}{article}{}{}
+    \entry{paeng2015stochastic}{article}{}
       \name{author}{2}{}{%
         {{hash=cab60d4fc615fb03ce379c8300544382}{%
            family={Paeng},
@@ -161,12 +153,10 @@
       }
       \strng{namehash}{847968d0a2ce3ad4144ef33c4fd292ef}
       \strng{fullhash}{847968d0a2ce3ad4144ef33c4fd292ef}
-      \strng{fullhashraw}{847968d0a2ce3ad4144ef33c4fd292ef}
       \strng{bibnamehash}{847968d0a2ce3ad4144ef33c4fd292ef}
       \strng{authorbibnamehash}{847968d0a2ce3ad4144ef33c4fd292ef}
       \strng{authornamehash}{847968d0a2ce3ad4144ef33c4fd292ef}
       \strng{authorfullhash}{847968d0a2ce3ad4144ef33c4fd292ef}
-      \strng{authorfullhashraw}{847968d0a2ce3ad4144ef33c4fd292ef}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
@@ -179,7 +169,7 @@
       \field{pages}{385\bibrangedash 394}
       \range{pages}{10}
     \endentry
-    \entry{code-fractal-chaos}{online}{}{}
+    \entry{code-fractal-chaos}{online}{}
       \name{author}{1}{}{%
         {{hash=8cb2010d27e13509d364436256e972c0}{%
            family={{SR}},
@@ -187,12 +177,10 @@
       }
       \strng{namehash}{8cb2010d27e13509d364436256e972c0}
       \strng{fullhash}{8cb2010d27e13509d364436256e972c0}
-      \strng{fullhashraw}{8cb2010d27e13509d364436256e972c0}
       \strng{bibnamehash}{8cb2010d27e13509d364436256e972c0}
       \strng{authorbibnamehash}{8cb2010d27e13509d364436256e972c0}
       \strng{authornamehash}{8cb2010d27e13509d364436256e972c0}
       \strng{authorfullhash}{8cb2010d27e13509d364436256e972c0}
-      \strng{authorfullhashraw}{8cb2010d27e13509d364436256e972c0}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -212,7 +200,7 @@
       \verb https://medium.com/@deepml1818/applying-chaos-theory-to-financial-markets-a-python-perspective-e11fe845e47b
       \endverb
     \endentry
-    \entry{wikipedia-random-walk}{online}{}{}
+    \entry{wikipedia-random-walk}{online}{}
       \name{author}{1}{}{%
         {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
            family={{Wikipedia contributors}},
@@ -220,12 +208,10 @@
       }
       \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
